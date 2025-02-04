@@ -1,0 +1,46 @@
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green
+}
+
+  a:hover {
+    color: orange;
+    text-decoration: none
+  }    
+
+  #LMAO {
+    color: darkred;
+  }
+
+  .LOL {
+    color: orange;
+  }
+
+  .annoying {
+    color: darkgreen;
+  }
+
+  .stupid {
+    color: blueviolet;
+  }
+
+  .dumb {
+    color: darkkhaki;
+  }
+
+  .annoying {
+    color: forestgreen;
+  }
+
+  .hehe {
+    color: skyblue;
+  }
+
+  .dumb {
+    color: orangered;
+  }
+
