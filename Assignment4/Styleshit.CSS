@@ -1,0 +1,92 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+
+img {
+  border: 10px solid black;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background-color: yellow;
+}
+
+body {
+  background-image: url(NOWAY.jpg);
+}      
+
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  text-align: justify;
+}
+
+.dumb {
+  text-align: center;
+}
+
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green
+}
+
+  a:hover {
+    color: orange;
+    text-decoration: none
+  }    
+
+  #LMAO 
+
+  .LOL {
+    color: orange;
+  }
+
+  .stupid {
+    color: blueviolet;
+  }
+
+  .dumb {
+    color: darkkhaki;
+  }
+
+
+  .hehe {
+    color: skyblue;
+  }
+
+  .dumb {
+    color: orangered;
+  }
+
+
+
+
