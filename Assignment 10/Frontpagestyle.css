@@ -1,0 +1,63 @@
+body {
+    background-color: #999999;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 3px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    grid-auto-rows: auto;
+  }
+  
+  .top-bubble {
+    grid-column: span 4;
+    height: 50px;
+    background-color: violet;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .top-bubble:hover {
+    background-color: lightpink;
+  }
+  
+  .burp {
+    grid-column: span 6;
+    height: 500px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    border: 5px solid black;
+    margin-top: 15px;
+  }
+  
+  .burp img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  
+  .Title {
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 0;
+    border-top: 2px solid black;
+  }
+  
