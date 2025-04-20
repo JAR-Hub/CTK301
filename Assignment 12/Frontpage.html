@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio  Mockup</title>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+
+  <link href="Frontpagestyle.css" rel="stylesheet" type="text/css">
+  
+  <div id="wrapper">
+
+    <div class="top-bubble">Bubble 1</div>
+    <div class="top-bubble">Bubble 2</div>
+    <div class="top-bubble">Bubble 3</div>
+
+
+    <a class="burp" href="Bucket Head.png" data-fancybox="gallery" data-caption="Character Design">
+      <img src="Bucket Head.png" alt="Character Design">
+      <div class="Title">Character Design</div>
+    </a>
+
+    <a class="burp" href="Photography.jpg" data-fancybox="Secondgallery" data-caption="Photography">
+      <img src="Photography.jpg" alt="Photography">
+      <div class="Title">Photography</div>
+    </a>
+
+  </div>
+
+  <script>   
+    Fancybox.bind("[data-fancybox]", {});
+    
+    const container = document.getElementById("myCarousel");
+const options = { infinite: false };
+
+new Carousel(container, options);
+
+ </script>
+
+</body>
+</html>
